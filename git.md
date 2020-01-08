@@ -253,6 +253,6 @@ alias gr='git remote show origin'
 alias gb='git branch -a'
 alias gl='git log --all --oneline --decorate --graph'
 alias glr='git log --all --oneline --decorate --graph --remotes'
-alias gll='git log --all --decorate --graph --abbrev-commit --format=format:'\''%C(yellow)%h%C(reset) - %C(cyan)%ad%C(reset) %C(green)(%ar)%C(reset)%C(red)%d%C(reset)%n'\'''\''          %C(red)%an: %C(bold) white)%s%C(reset)'\'''
+alias gll='git log --all --decorate --graph --abbrev-commit --format=format:'\''%C(yellow)%h%C(reset) - %C(cyan)%ad%C(reset) %C(green)(%ar)%C(reset)%C(red)%d%C(reset)%n'\'''\''          %C(red)%an: %C(bold white)%s%C(reset)'\'''
 ```
 

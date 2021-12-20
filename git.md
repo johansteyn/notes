@@ -256,3 +256,12 @@ alias glr='git log --all --oneline --decorate --graph --remotes'
 alias gll='git log --all --decorate --graph --abbrev-commit --format=format:'\''%C(yellow)%h%C(reset) - %C(cyan)%ad%C(reset) %C(green)(%ar)%C(reset)%C(red)%d%C(reset)%n'\'''\''          %C(red)%an: %C(bold white)%s%C(reset)'\'''
 ```
 
+Tips
+----
+* To discard changes that have not been added yet, simply checkout the file(s), eg:
+  ```
+  $ git checkout <path-to-file>
+  ```
+  For more info on undoing things... 
+  https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things
+* More tips...
